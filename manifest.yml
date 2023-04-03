@@ -1,0 +1,7 @@
+---
+applications:
+- name: cloud-foundry-deploy
+  memory: 512M
+  buildpacks:
+    - https://github.com/cloudfoundry/staticfile-buildpack.git
+  path: build
